@@ -2038,7 +2038,7 @@ dependencies = [
  "libsignal-core",
  "log",
  "num_enum",
- "pqcrypto-kyber 0.7.9",
+ "pqcrypto-kyber 0.7.6",
  "pqcrypto-kyber 0.8.0",
  "pqcrypto-traits",
  "proptest",
@@ -2691,9 +2691,9 @@ dependencies = [
 
 [[package]]
 name = "pqcrypto-kyber"
-version = "0.7.9"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c32fe9d5c9913b1aed1ba92b3449eb2d7cf7ca29741b11455dfa34c711b95776"
+checksum = "fe9d9695c19e525d5366c913562a331fbeef9a2ad801d9a9ded61a0e4c2fe0fb"
 dependencies = [
  "cc",
  "glob",

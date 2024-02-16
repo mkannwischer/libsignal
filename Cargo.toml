@@ -38,3 +38,6 @@ boring = { git = 'https://github.com/signalapp/boring', branch = 'libsignal' }
 
 [profile.dev.package.argon2]
 opt-level = 2 # signal-signal-pin unit tests are too slow with an unoptimized argon2
+
+[profile.release.package.pqcrypto-kyber]
+opt-level = "z"
